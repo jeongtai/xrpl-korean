@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "site/**"
 
 jobs:
   deploy:
@@ -13,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: 20
@@ -20,15 +19,14 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-        working-directory: ./site
+
       - name: Build website
         run: yarn build
-        working-directory: ./site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site/build
+          publish_dir: build
           user_name: wonj1012
           user_email: jjaa1012@gmail.com
