@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxrpl_korean=self.webpackChunkxrpl_korean||[]).push([[421],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

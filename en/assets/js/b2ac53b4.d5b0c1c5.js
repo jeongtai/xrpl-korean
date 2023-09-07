@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxrpl_korean=self.webpackChunkxrpl_korean||[]).push([[5492],{5539:e=>{e.exports=JSON.parse('{"permalink":"/xrpl-korean/en/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
