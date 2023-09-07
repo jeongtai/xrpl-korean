@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxrpl_korean=self.webpackChunkxrpl_korean||[]).push([[575],{3665:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/xrpl-korean/blog/tags/docusaurus","allTagsPath":"/xrpl-korean/blog/tags","count":4}')}}]);

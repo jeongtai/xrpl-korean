@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkxrpl_korean=self.webpackChunkxrpl_korean||[]).push([[7174],{8312:l=>{l.exports=JSON.parse('{"label":"hello","permalink":"/xrpl-korean/blog/tags/hello","allTagsPath":"/xrpl-korean/blog/tags","count":2}')}}]);
