@@ -1,7 +1,12 @@
 {
-  "name": "my-website",
+  "name": "xrpl-korean",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Wonjae Choi",
+    "url": "https://wonj.me",
+    "email": "choi@wonj.me"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -25,8 +30,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1",
-    "@tsconfig/docusaurus": "^1.0.5",
-    "typescript": "^4.7.4"
+    "@tsconfig/docusaurus": "^2.0.0",
+    "typescript": "^5.2.2"
   },
   "browserslist": {
     "production": [
