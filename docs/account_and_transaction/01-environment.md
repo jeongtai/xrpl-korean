@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 author: wonj1012
-Editor: Jake
+editor: Jake
 ---
 
 # 개발환경 설정
